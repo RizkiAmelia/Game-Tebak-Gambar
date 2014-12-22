@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.amtebakgambar"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="15"
+        android:targetSdkVersion="19" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MintaUang"
+            android:label="@string/title_activity_minta_uang" >
+        </activity>
+        <activity
+            android:name=".MukaDua"
+            android:label="@string/title_activity_muka_dua" >
+        </activity>
+        <activity
+            android:name=".Sheila"
+            android:label="@string/title_activity_sheila" >
+        </activity>
+        <activity
+            android:name=".Sobat"
+            android:label="@string/title_activity_sobat" >
+        </activity>
+        <activity
+            android:name=".Spiderman"
+            android:label="@string/title_activity_spiderman" >
+        </activity>
+        <activity
+            android:name=".TebakHuruf"
+            android:label="@string/title_activity_tebak_huruf" >
+        </activity>
+        <activity
+            android:name=".TenagaListrik"
+            android:label="@string/title_activity_tenaga_listrik" >
+        </activity>
+        <activity
+            android:name=".Tongair"
+            android:label="@string/title_activity_tongair" >
+        </activity>
+        <activity
+            android:name=".UkuranMata"
+            android:label="@string/title_activity_ukuran_mata" >
+        </activity>
+        <activity
+            android:name=".Berhasil"
+            android:label="@string/title_activity_berhasil" >
+        </activity>
+    </application>
+
+</manifest>
